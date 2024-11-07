@@ -22,6 +22,7 @@ if(NOT (is_using_MSVC_compiler OR is_using_CLANG_compiler OR is_using_GCC_compil
 endif()
 
 
+
 add_definitions(-DUNICODE -D_UNICODE)
 file(GLOB_RECURSE cpp_source_files "../cpp_source/*.cpp")
 file(GLOB_RECURSE cpp_header_files "../cpp_headers/*.hpp" "../cpp_headers/*.h")
