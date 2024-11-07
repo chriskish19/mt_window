@@ -1,5 +1,5 @@
 <h1> Multithreaded win32 window example</h1>
-<p>Small program that demonstrates how you might go about running multiple windows on seperate threads each with its own win32 message pump. Painful but possible.</p>
+<p>Small program that demonstrates how you might go about running multiple windows on seperate threads each with its own win32 message pump. Painful but possible. There is no error handling provided as this is a simple example program!</p>
 
 <h1>Prerequisites</h1>
 <li>Git</li>
